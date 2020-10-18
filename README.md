@@ -1,20 +1,29 @@
 # Election_Analysis
-## Project Overview
-A Colorado Board of Elections employee has given the following tasks to complete the election audit of a recent local congressional election.
+## Election Audit Overview
+The Colorado Board of Elections has asked me to complete the election audit of a recent local congressional election. The request for the audit includes the following:
 
 1. Calculate the total number of votes cast
 2. Get a complete list of candidates who received votes
 3. Calculate the total number of votes each candidate received
 4. Calculate the percentage of votes each candidate won
 5. Determine the winner of the election based on the popular vote
+6. The voter turnout for each county
+7. The percentage of votes from each county out of the total count
+8. The county with the highest turnout
 
 ## Resources
+To complete the audit, I used the below software to analyze the election data and publish the results.
 - Data Source: election_results.csv
 - Software: Python 3.8.5, Visual Studio Code, 1.49.1
 
-## Summary
+## Election Audit Results
 The analysis of the election shows that:
 - There were 369,711 votes cast in the election
+- The number of votes per county:
+  - Jefferson county saw 10.5% of the vote with 38,855 votes cast
+  - Denver county saw 82.8% of the vote with 306,055 votes cast
+  - Arapahoe county saw 6.7% of the vote with 24,801 votes cast
+- Denver was the county with the largest number of votes cast
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
@@ -25,12 +34,9 @@ The analysis of the election shows that:
   - Raymon Anthony Doane received 3.1% of the vote with 11,606 votes
 - The winner of the election was: 
   - Diana DeGette who received 73.8% of the vote with 272,892 votes
-      
-## Challenge Overview
-The election commission has requested some additional data to complete the audit:
 
-- The voter turnout for each county
-- The percentage of votes from each county out of the total count
-- The county with the highest turnout
+The results have been published in [election_analysis.txt which can be found here.](https://github.com/luke-c-newell/Election_Analysis/blob/main/analysis/election_analysis.txt) See the below screenshot for a visualization of the results.
 
-## Challenge Summary
+![alt text](https://github.com/luke-c-newell/election_analysis/blob/main/Resources/Election_analysis.png "Election_analysis")
+
+## Election Audit Summary
