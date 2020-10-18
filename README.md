@@ -13,7 +13,7 @@ The Colorado Board of Elections has asked me to complete the election audit of a
 
 ## Resources
 To complete the audit, I used the below software to analyze the election data and publish the results.
-- Data Source: election_results.csv
+- Data Source: [election_results.csv](https://github.com/luke-c-newell/Election_Analysis/blob/main/analysis/election_results.csv)
 - Software: Python 3.8.5, Visual Studio Code, 1.49.1
 
 ## Election Audit Results
@@ -40,3 +40,14 @@ The results have been published in [election_analysis.txt which can be found her
 ![alt text](https://github.com/luke-c-newell/election_analysis/blob/main/Resources/Election_analysis.png "Election_analysis")
 
 ## Election Audit Summary
+Overall, the audit was a success as I was able to determine that Diana DeGette won the election with 73.8% of the vote. In order to use this script for determining the result of any election, the code must be modified to ensure that it functions correctly. This assumes that the election results are available in csv format with three columns: Ballot ID, County and Candidate.
+
+### 1. Ensure the election results are saved in the "Resources" folder as a csv file
+You will need to change line 9 of the code to enable the script to read the results of another election. The code should be changed to match the filename of the new election results, by replacing "election_results.csv" with the new filename.
+
+![alt text](https://github.com/luke-c-newell/election_analysis/blob/main/Resources/correct_results_filepath.png "correct_results_filepath")
+
+### 2. Create a file for the election analysis, ensuring it is saved in the "analysis" folder as a txt file
+You will need to change line 11 of the code to enable the script to write the results of another election to a new file. The code should be changed to match the filename of the new election analysis, by replacing "election_analysis.txt" with the new filename.
+
+![alt text](https://github.com/luke-c-newell/election_analysis/blob/main/Resources/correct_analysis_filepath.png "correct_analysis_filepath")
